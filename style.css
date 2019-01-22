@@ -1,0 +1,27 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+#click {
+	background-color: lawngreen;
+	position: absolute;
+	right: 0;
+	width: 400px;
+	height: 100%;
+    z-index: 10;
+}
+
+#video-container {
+    
+    overflow: hidden;
+    margin-left: -520px;
+    display: block;
+    left: -400px;
+    
+    
+}
+
+#thevid {
+    
+}
