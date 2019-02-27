@@ -1,27 +1,13 @@
-html, body {
-	margin: 0;
-	padding: 0;
+html , body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
-#click {
-	background-color: lawngreen;
-	position: absolute;
-	right: 0;
-	width: 400px;
-	height: 100%;
-    z-index: 10;
+.audio_container {
+    margin: 20px;
+    position:inherit;
 }
 
-#video-container {
-    
-    overflow: hidden;
-    margin-left: -520px;
-    display: block;
-    left: -400px;
-    
-    
-}
-
-#thevid {
-    
-}
+audio {}
