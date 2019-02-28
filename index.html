@@ -3,19 +3,207 @@
 <head>
     <meta charset="UTF-8">
     <title>Henry</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-  <div class="container">
-    <div class="file_container">
-        <p>1</p>
+    <div id="file1" style="display: block">
+      <div class="container">
+       <img src="media/icoon1.png" alt="" class="image">
+        <audio controls class="audio-element">
+        <source src="media/Opname%201.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="link-wrap">
+    <a href="#file2" id="file1next" class="nextbutton">next</a>
     </div>
-    <div class="audio_container">
-    <audio controls>
+    </div>
+    </div>
+    
+    <div id="file2" style="display: none">
+      <div class="container">
+       <img src="media/icoon2.png" alt="" class="image">
+        <audio controls class="audio-element">
+        <source src="media/Opname%202.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="link-wrap">
+    <a href="#file1" id="file2prev" class="prevbutton">prev</a>
+    <a href="#file3" id="file2next" class="nextbutton">next</a>
+    </div>
+    </div>
+    </div>
+    
+    <div id="file3" style="display: none" >
+      <div class="container">
+       <img src="media/icoon3.png" alt="" class="image">
+        <audio controls class="audio-element">
+        <source src="media/Opname%203.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="link-wrap">
+    <a href="#file2" id="file3prev" class="prevbutton">prev</a>
+    <a href="#file-A" id="file3next" class="nextbutton">next</a>
+    </div>
+    </div>
+    </div>
+    
+<!--FILE A: GALLERY-->
+    <div id="file-A" style="display: none" >
+      <div class="container">
+        <img src="media/icoon-A.png" alt="" class="image">
+        <p>Crime Scene</p>
+       <img src="media/crime1.png" alt="" class="gallery gallery-first">
+       <img src="media/crime2.png" alt="" class="gallery">
+       <img src="media/crime3.png" alt="" class="gallery">
+       <img src="media/crime4.png" alt="" class="gallery">
+       <img src="media/crime5.png" alt="" class="gallery">
+    <div class="link-wrap">
+    <a href="#file2" id="file-Aprev" class="prevbutton">prev</a>
+    <a href="#file4" id="file-Anext" class="nextbutton">next</a>
+    </div>
+    </div>
+    </div>
+    
+    <div id="file4" style="display: none" >
+      <div class="container">
+       <img src="media/icoon4.png" alt="" class="image">
+        <audio controls class="audio-element">
+        <source src="media/Opname%204.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="link-wrap">
+    <a href="#file-A" id="file4prev" class="prevbutton">prev</a>
+    <a href="#file5" id="file4next" class="nextbutton">next</a>
+    </div>
+    </div>
+    </div>
+    
+      <div id="file5" style="display: none" >
+      <div class="container">
+       <img src="media/icoon5.png" alt="" class="image">
+        <audio controls class="audio-element">
+        <source src="media/Opname%205.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="link-wrap">
+    <a href="#file4" id="file5prev" class="prevbutton">prev</a>
+    <a href="#file6" id="file5next" class="nextbutton">next</a>
+    </div>
+    </div>
+    </div>
+    
+      <div id="file6" style="display: none" >
+      <div class="container">
+       <img src="media/icoon6.png" alt="" class="image">
+        <audio controls class="audio-element">
+        <source src="media/Opname%206.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="link-wrap">
+    <a href="#file5" id="file6prev" class="prevbutton">prev</a>
+    <a href="#file7" id="file6next" class="nextbutton">next</a>
+    </div>
+    </div>
+    </div>
+    
+      <div id="file7" style="display: none" >
+      <div class="container">
+       <img src="media/icoon7.png" alt="" class="image">
+        <audio controls class="audio-element">
+        <source src="media/Opname%207.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="link-wrap">
+    <a href="#file6" id="file7prev" class="prevbutton">prev</a>
+    <a href="#filea" id="file7next" class="nextbutton">next</a>
+    </div>
+    </div>
+    </div>
+<!--FILE a-->
+      <div id="filea" style="display: none" >
+      <div class="container">
+       <img src="media/icoona.png" alt="" class="image">
+        <audio controls class="audio-element">
+        <source src="media/Oma.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="link-wrap">
+    <a href="#file7" id="fileaprev" class="prevbutton">prev</a>
+    <a href="#fileb" id="fileanext" class="nextbutton">next</a>
+    </div>
+    </div>
+    </div>
+    
+      <div id="fileb" style="display: none" >
+      <div class="container">
+       <img src="media/icoonb.png" alt="" class="image">
+        <audio controls class="audio-element">
         <source src="media/Henry.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
+    <div class="link-wrap">
+    <a href="#filea" id="filebprev" class="prevbutton">prev</a>
+    <a href="#filec" id="filebnext" class="nextbutton">next</a>
     </div>
-     </div>  
+    </div>
+    </div>
+    
+      <div id="filec" style="display: none" >
+      <div class="container">
+       <img src="media/icoonc.png" alt="" class="image">
+        <audio controls class="audio-element">
+        <source src="media/Mama.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="link-wrap">
+    <a href="#fileb" id="filecprev" class="prevbutton">prev</a>
+    <a href="#filed" id="filecnext" class="nextbutton">next</a>
+    </div>
+    </div>
+    </div>
+    
+    <div id="filed" style="display: none" >
+      <div class="container">
+       <img src="media/icoond.png" alt="" class="image">
+        <audio controls class="audio-element">
+        <source src="media/Peter.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="link-wrap">
+    <a href="#filec" id="filedprev" class="prevbutton">prev</a>
+    <a href="#filee" id="filednext" class="nextbutton">next</a>
+    </div>
+    </div>
+    </div>
+     
+     
+      <div id="filee" style="display: none" >
+      <div class="container">
+       <img src="media/icoone.png" alt="" class="image">
+        <audio controls class="audio-element">
+        <source src="media/Salomon.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="link-wrap">
+    <a href="#filed" id="fileeprev" class="prevbutton">prev</a>
+    </div>
+    </div>
+    </div>
+    
+    
+<script src="jquery-3.3.1.js"></script>    
+<script src="script.js"></script>
+
 </body>
+
 </html>
+
+
+
+
+
+
