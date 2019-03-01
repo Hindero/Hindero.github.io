@@ -10,15 +10,29 @@
     
 </head>
 <body>
+       <div id="intro" style="display: block">
+      <div class="container">
+       <img src="media/icoon-B.png" alt="" class="image">
+        <audio controls class="audio-element">
+        <source src="media/intro.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="link-wrap">
+    <a href="#file1" id="intronext" class="nextbutton">next</a>
+    </div>
+    </div>
+    </div>
+   
     <div id="file1" style="display: block">
       <div class="container">
        <img src="media/icoon1.png" alt="" class="image">
         <audio controls class="audio-element">
-        <source src="media/Opname%201.mp3" type="audio/mpeg">
+        <source src="media/opname1.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
     <div class="link-wrap">
-    <a href="#file2" id="file1next" class="nextbutton">next</a>
+    <a href="#intro" id="file1prev" class="prevbutton">prev</a>
+    <a href="#file1" id="file1next" class="nextbutton">next</a>
     </div>
     </div>
     </div>
@@ -27,34 +41,24 @@
       <div class="container">
        <img src="media/icoon2.png" alt="" class="image">
         <audio controls class="audio-element">
-        <source src="media/Opname%202.mp3" type="audio/mpeg">
+        <source src="media/opname2.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
     <div class="link-wrap">
     <a href="#file1" id="file2prev" class="prevbutton">prev</a>
-    <a href="#file3" id="file2next" class="nextbutton">next</a>
+    <a href="#file-A" id="file2next" class="nextbutton">next</a>
     </div>
     </div>
     </div>
     
-    <div id="file3" style="display: none" >
-      <div class="container">
-       <img src="media/icoon3.png" alt="" class="image">
-        <audio controls class="audio-element">
-        <source src="media/Opname%203.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    <div class="link-wrap">
-    <a href="#file2" id="file3prev" class="prevbutton">prev</a>
-    <a href="#file-A" id="file3next" class="nextbutton">next</a>
-    </div>
-    </div>
-    </div>
-    
-<!--FILE A: GALLERY-->
+    <!--FILE A: GALLERY-->
     <div id="file-A" style="display: none" >
       <div class="container">
         <img src="media/icoon-A.png" alt="" class="image">
+        <audio controls class="audio-element">
+        <source src="media/opnameA.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
         <p>Crime Scene</p>
        <img src="media/crime1.png" alt="" class="gallery gallery-first">
        <img src="media/crime2.png" alt="" class="gallery">
@@ -63,7 +67,21 @@
        <img src="media/crime5.png" alt="" class="gallery">
     <div class="link-wrap">
     <a href="#file2" id="file-Aprev" class="prevbutton">prev</a>
-    <a href="#file4" id="file-Anext" class="nextbutton">next</a>
+    <a href="#file3" id="file-Anext" class="nextbutton">next</a>
+    </div>
+    </div>
+    </div>
+    
+    <div id="file3" style="display: none" >
+      <div class="container">
+       <img src="media/icoon3.png" alt="" class="image">
+        <audio controls class="audio-element">
+        <source src="media/opname3.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="link-wrap">
+    <a href="#file-A" id="file3prev" class="prevbutton">prev</a>
+    <a href="#file4" id="file3next" class="nextbutton">next</a>
     </div>
     </div>
     </div>
@@ -72,11 +90,11 @@
       <div class="container">
        <img src="media/icoon4.png" alt="" class="image">
         <audio controls class="audio-element">
-        <source src="media/Opname%204.mp3" type="audio/mpeg">
+        <source src="media/opname4.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
     <div class="link-wrap">
-    <a href="#file-A" id="file4prev" class="prevbutton">prev</a>
+    <a href="#file4" id="file4prev" class="prevbutton">prev</a>
     <a href="#file5" id="file4next" class="nextbutton">next</a>
     </div>
     </div>
